@@ -9,6 +9,8 @@ app.use(express.json())
 const database=require('../server/config/database')
 const userRoute=require('../server/router/userRoute')
 
+
+
 database()
 
 app.use('/api/v1/auth',userRoute)
