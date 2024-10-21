@@ -19,7 +19,7 @@ app.use('/ty',(req,res)=>{
 })
  
 const PORT = process.env.PORT || 8001
-app.use('/ty',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("Hell")
 })
 
